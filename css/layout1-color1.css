@@ -1,7 +1,7 @@
 /* 
-Template Name: Flatr - vCard, CV, Resume & Portfolio template
-Description: Flatr - vCard, CV, Resume & Portfolio template
-Author: Themelite
+Template Name: vCard, CV, Resume & Portfolio template
+Description: vCard, CV, Resume & Portfolio template
+Author: Eugene
 Version: 1.0.0
 */
 
@@ -46,9 +46,8 @@ a {
   2. GLOBAL COMPONENTS  - defines overall common styles of the template
 ========================================================================== */
 body {
-  background-image: url('../img/pattern.png');
-  background-repeat: repeat;
-  background-color: #000000;
+  background: rgb(58,57,150);
+background: linear-gradient(45deg, rgba(58,57,150,1) 0%, rgba(250,57,77,1) 100%);
 }
 a {
   -webkit-transition: all 0.35s;
@@ -72,6 +71,7 @@ sup {
 }
 .main-container {
   margin-top: 61px;
+  border: 25px solid #fff;
   background-color: #fff;
 }
 .main-container .offset-lt {
@@ -934,7 +934,8 @@ p + .btn {
   left: 0;
   z-index: 1030;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  background-color: #000;
+  background: rgb(58,57,150);
+background: linear-gradient(45deg, rgba(58,57,150,1) 0%, rgba(250,57,77,1) 100%);
 }
 .nav-container {
   background-color: transparent;
@@ -2144,7 +2145,8 @@ header .resume-designation span.border {
   max-width: 290px;
   height: 4px;
   margin-right: 25px;
-  background-color: #3a3996;
+  background: rgb(58,57,150);
+background: linear-gradient(45deg, rgba(58,57,150,1) 0%, rgba(250,57,77,1) 100%);
 }
 @media all and (max-width: 480px) {
   header .col-md-12.extra-offset-md {
